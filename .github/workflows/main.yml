@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: jbarger42@gmail.com/${{ github.event.repository.name }}:latest
+          tags: jbarger42/${{ github.event.repository.name }}:latest
